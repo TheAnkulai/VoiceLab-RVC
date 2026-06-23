@@ -49,6 +49,7 @@ PySide6_Addons==6.11.1
 PySide6_Essentials==6.11.1
 python-dotenv==1.2.2
 PyYAML==6.0.3
+pyworld==0.3.2
 regex==2026.5.9
 requests==2.34.2
 resampy==0.4.3
@@ -60,6 +61,7 @@ six==1.17.0
 soundfile==0.14.0
 sympy==1.14.0
 tabulate==0.10.0
+tensorboardX
 threadpoolctl==3.6.0
 tomli==2.4.1
 tqdm==4.68.3
