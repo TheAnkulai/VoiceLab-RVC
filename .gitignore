@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Runtime/temp
+TEMP/
+outputs/
+inputs/
+_unused_backup/
+
+# Debug/generated snapshots
+project_files*.txt
+project_tree*.txt
+requirements_working*.txt
+
+# Logs/runtime audio
+*.log
+
+# Large model files
+assets/weights/*.pth
+assets/hubert/*.pt
+assets/rmvpe/*.pt
+logs/*.index
+
+# Keep placeholder files
+!assets/weights/.gitignore
+!assets/hubert/.gitignore
+!assets/rmvpe/.gitignore
+!inputs/.gitignore
+!outputs/.gitignore
+
+# Optional local settings
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
