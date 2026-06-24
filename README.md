@@ -312,18 +312,6 @@ logs/*.index
 
 ## Возможные проблемы
 
-### `Loading: None/model.pth`
-
-Не задан путь `weight_root`. В текущей версии `rvc_infer_cli.py` должны быть fallback-пути:
-
-```python
-os.environ.setdefault("weight_root", "assets/weights")
-os.environ.setdefault("weight_uvr5_root", "assets/uvr5_weights")
-os.environ.setdefault("index_root", "logs")
-os.environ.setdefault("outside_index_root", "logs")
-os.environ.setdefault("rmvpe_root", "assets/rmvpe")
-```
-
 ### `torch` стал версии 2.12.x
 
 Нужно вернуть правильный стек:
@@ -347,12 +335,6 @@ python -m pip install torchcrepe==0.0.20 --no-deps
 
 ```text
 assets/rmvpe/rmvpe.pt
-```
-
-И что в `rvc_infer_cli.py` указано:
-
-```python
-os.environ.setdefault("rmvpe_root", "assets/rmvpe")
 ```
 
 ## Текущий статус
