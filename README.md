@@ -87,7 +87,7 @@ python -m pip install setuptools wheel
 Сначала ставятся базовые зависимости без PyTorch, `fairseq` и пакетов, которые могут подтянуть неправильную версию `torch`:
 
 ```powershell
-python -m pip install -r requirements_cpu.txt
+python -m pip install -r requirements.txt
 ```
 
 Затем отдельно ставится CPU-версия PyTorch:
